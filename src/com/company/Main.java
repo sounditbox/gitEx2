@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
 	    Counter c = new Counter();
         System.out.println(c.getCount());
+        Greeter.greet();
+        Greeter.greet("Ruslan");
     }
 }
 
@@ -15,6 +17,7 @@ public class Main {
 // new - зелёные - новые
 // changed - лазурные - изменённые
 // deleted - удалённые
+
 
 // init - создание репозитория
 // add - добавление неотслеживаемых файлов
