@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your text here
+        Greeter.greet();
+        Greeter.greet("Ruslan");
     }
 }
 
@@ -14,3 +15,10 @@ public class Main {
 // new - зелёные - новые
 // changed - лазурные - изменённые
 // deleted - удалённые
+
+
+// init - создание репозитория
+// add - добавление неотслеживаемых файлов
+// checkout - переключиться между ветками
+// branch - новая ветка
+// merge - слияние веток
